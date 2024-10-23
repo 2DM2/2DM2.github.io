@@ -51,8 +51,8 @@ h2.main {
 @media screen and (max-width: 600px) {
   .prev, .next,.section2-text, .section3-text {
     font-size: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
 
   }
 }

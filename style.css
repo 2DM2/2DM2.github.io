@@ -1,7 +1,7 @@
 /* ------------------other------------------------- */
 body, html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   scroll-behavior: smooth;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 hr { 
@@ -34,9 +34,6 @@ h2.main {
   background-repeat: no-repeat;
   background-size: cover;
 
-  scroll-snap-type: y mandatory;
-  scroll-snap-align: center;
-
   display: block;
   overflow: hidden;
   text-align: center;
@@ -47,6 +44,17 @@ h2.main {
 .pdf {
   width: 100%;
   height: auto;
+}
+
+
+/* On smaller screens, decrease text size */
+@media screen and (max-width: 600px) {
+  .prev, .next,.section2-text, .section3-text {
+    font-size: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+  }
 }
 
 
@@ -156,19 +164,24 @@ h2.main {
 .section2 {
   /* The image used */
   background-color: rgb(255, 255, 255);
+  display: block;
+  overflow: auto;
+  text-align: center;
+  padding: 5px 5px;
+  margin: auto;
 }
 
 .section2-text {
   text-align: justify;
   text-align-last: center;  
   color: rgb(0, 0, 0);
-  font-size: 15px;
+  font-size: 17px;
   padding: 5px 5px;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 5vh;
   margin-bottom: 5vh;
-  line-height: 1.25;
+  line-height: 1.5;
 }
 
 .headshot {  
@@ -189,6 +202,12 @@ h2.main {
 .section3 {
   /* The image used */
   background-color: #F05E40;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  padding: 5px 5px;
+  margin: auto;
+
 }
 
 /* slideshow */
@@ -290,15 +309,7 @@ img {
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.section2-text, .section3-text {
-    font-size: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
 
-  }
-}
 
 
 

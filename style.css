@@ -165,7 +165,7 @@ h2.main {
   text-align: justify;
   text-align-last: center;  
   color: rgb(0, 0, 0);
-  font-size: 17px;
+  font-size: 16px;
   padding: 5px 5px;
   margin-left: 10%;
   margin-right: 10%;
@@ -193,11 +193,9 @@ h2.main {
   /* The image used */
   background-color: #F05E40;
   display: block;
-  overflow: hidden;
   text-align: center;
   padding: 5px 5px;
   margin: auto;
-
 }
 
 /* slideshow */
@@ -262,7 +260,7 @@ img {
   padding: 5px 5px;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 5vh;
+  margin-top: 2vh;
   margin-bottom: 5vh;
   line-height: 1;
 }
@@ -336,10 +334,9 @@ img {
 
 /* On smaller screens, decrease text size */
 @media screen and (max-width: 600px) {
-  .prev, .next, img, .section2-text, .section3-text {
-    font-size: 10px;
+  .prev, .next, .section2-text, .section3-text {
+    font-size: 12px;
     margin-left: 1%;
     margin-right: 1%;
-
   }
 }

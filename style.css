@@ -47,16 +47,6 @@ h2.main {
 }
 
 
-/* On smaller screens, decrease text size */
-@media screen and (max-width: 600px) {
-  .prev, .next, .section2-text, .section3-text {
-    font-size: 10px;
-    margin-left: 1%;
-    margin-right: 1%;
-
-  }
-}
-
 
 /* -------------------------- topnav ---------------------------- */
 
@@ -177,8 +167,8 @@ h2.main {
   color: rgb(0, 0, 0);
   font-size: 17px;
   padding: 5px 5px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 5vh;
   margin-bottom: 5vh;
   line-height: 1.5;
@@ -220,9 +210,12 @@ h2.main {
 }
 
 img {
-  vertical-align: middle;
-  max-width: 85%;
-  height: 60%;
+  display: block;
+  max-width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+ 
 }
 
 /* Slideshow container */
@@ -265,13 +258,13 @@ img {
   text-align: justify;
   text-align-last: center;  
   color: rgb(255, 255, 255);
-  font-size: 15px;
+  font-size: 14px;
   padding: 5px 5px;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 5vh;
   margin-bottom: 5vh;
-  line-height: 1.25;
+  line-height: 1;
 }
 
 /* Number text (1/3 etc) */
@@ -341,3 +334,12 @@ img {
 }
 
 
+/* On smaller screens, decrease text size */
+@media screen and (max-width: 600px) {
+  .prev, .next, img, .section2-text, .section3-text {
+    font-size: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+
+  }
+}

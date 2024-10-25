@@ -209,13 +209,13 @@ h2.main {
 
 img {
   display: block;
-  max-width: 60%;
+  max-width: 70%;
   height: auto;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
-/* Slideshow container */
+/* slideshow container */
 .slideshow-container {
   max-width: 100%;
   position: relative;
@@ -257,8 +257,8 @@ img {
   color: rgb(255, 255, 255);
   font-size: 12px;
   padding: 5px 5px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-top: 1vh;
   margin-bottom: 5vh;
   line-height: 1;

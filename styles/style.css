@@ -332,4 +332,11 @@ img {
     margin-left: 1%;
     margin-right: 1%;
   }
+  img {
+    display: block;
+    max-width: 98%;
+    height: auto;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
 }

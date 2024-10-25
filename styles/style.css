@@ -26,7 +26,6 @@ h2.main {
 }
 
 #container {
-  /* Full height */
   height: 100vh;
   width: auto;
   
@@ -43,14 +42,13 @@ h2.main {
 
 .pdf {
   width: 100%;
-  height: auto;
+  height: 100vh;
 }
 
 
 
 /* -------------------------- topnav ---------------------------- */
 
-/* Add a black background color to the top navigation */
 .topnav {
     background-color: #ffffff;
     overflow: hidden;
@@ -61,7 +59,7 @@ h2.main {
     width: 100%; /* Full width */
   }
   
-  /* Style the links inside the navigation bar */
+/* style the links inside the navigation bar */
 .topnav a {
     color: black;
     padding: 10px 10px 10px 10px;
@@ -71,24 +69,24 @@ h2.main {
     margin-right: auto;
   }
   
-/* Change the color of links on hover */
+/* change the color of links on hover */
 .topnav a:hover {
   background-color: none;
   color: #F05E40;
 }
 
-/* Add a color to the active/current link */
+/* add a color to the active/current link */
 .topnav a.active {
   background-color: #ffffff;
   color: #F05E40;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
+/* hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* when the screen is less than 600 pixels wide, hide all links, except for the first one ("Home").*/
 @media screen and (max-width: 600px) {
   .topnav a:not(:no-button) {display: none;}
   .topnav a.icon {
@@ -97,7 +95,7 @@ h2.main {
   }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+/* the "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
@@ -116,7 +114,7 @@ h2.main {
 /* ---------section 1 - main ------------------------------ */
 
 .section1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("background/designer.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -148,6 +146,7 @@ h2.main {
   opacity: 0.9;
   box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.1),0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
 
 /* ---------section 2 - about ------------------------------ */
 
@@ -186,6 +185,7 @@ h2.main {
   border: 3px solid #F05E40;
   border-radius: 100%;
 }
+
 
 /* ---------section 3 - projects ------------------------------- */
 
@@ -257,8 +257,8 @@ img {
   color: rgb(255, 255, 255);
   font-size: 12px;
   padding: 5px 5px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-top: 1vh;
   margin-bottom: 5vh;
   line-height: 1;
@@ -298,12 +298,6 @@ img {
   from {opacity: .4} 
   to {opacity: 1}
 }
-
-
-
-
-
-
 
 
 /* ---------footer ------------------------------- */

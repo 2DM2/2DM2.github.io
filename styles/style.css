@@ -161,8 +161,7 @@ h2.main {
 }
 
 .section2-text {
-  text-align: justify;
-  text-align-last: center;  
+  text-align: left; 
   color: rgb(0, 0, 0);
   font-size: 16px;
   padding: 5px 5px;
@@ -252,8 +251,7 @@ img {
 
 /* Caption text */
 .section3-text {
-  text-align: justify;
-  text-align-last: center;  
+  text-align: left;
   color: rgb(255, 255, 255);
   font-size: 12px;
   padding: 5px 5px;
